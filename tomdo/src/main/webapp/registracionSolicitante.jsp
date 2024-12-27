@@ -11,8 +11,8 @@
 		<label>Nombre:</label> <input type="text" name="nombre"><br>
 		<label>Apellido:</label> <input type="text" name="apellido"><br>
 		<label>Correo Electronico:</label> <input type="email" name="correo"><br>
-		<label>Telefono:</label> <input type="tel" name="telefono"><br>
-		<label>Contraseña:</label><input type="password" name="contraseña"><br>
+		<label>Telefono:</label> <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"><br>
+		<label>Contraseña:</label><input type="password" name="contraseña" minlength="8"><br>
 		<label id="provincia">Provincia:</label>
 			<select name="provincia" id="boxProvincia">
 				<option value=""></option>

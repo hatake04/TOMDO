@@ -15,7 +15,6 @@
 		<nav>
 			<h3><a href="">Empleador</a></h3>
 			<h3><a href="">Solicitante</a></h3>
-			<input type="button">
 		</nav>
 	</div>
 	<div>

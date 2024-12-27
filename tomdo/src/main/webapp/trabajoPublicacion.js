@@ -37,7 +37,7 @@ function selectTipoEmpleos(industria)
 		}
 		case "Construccion":{
 			let tiposEmpleos = ["Arquitecto", "Ingeniero Civil", "Carpintero", "Albañil", "Electricista", "Pintor", "Plomero", 
-				"Operador de maquinas pesadas", "Herrero", "Vidriero", "Constructor", "Soldador", "Agrimensor", "Climatizacion"10.10dmin]TSDarodriguño
+				"Operador de maquinas pesadas", "Herrero", "Vidriero", "Constructor", "Soldador", "Agrimensor", "Climatizacion"]
 			loopTipoEmpleos(tiposEmpleos);
 			break;
 		}

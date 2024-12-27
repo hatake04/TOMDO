@@ -16,15 +16,16 @@
 		</select><br>
 		<div id="infoempresa" style="display:none;">
 			<label>Empresa:</label><input type="text" name="empresa"><br>
-			<label>Representante:</label> <input type="text" name="representante"><br>
+			<label>Representante:</label> <input type="text" name="representante" placeholder="Juan Santos"><br>
 		</div>
 		<div id="infocontratista" style="display:none;">
 			<label>Nombre:</label><input type="text" name="nombre"><br>
 			<label>Apellido:</label> <input type="text" name="apellido"><br>
 		</div>
 		<label>Correo Electronico:</label> <input type="email" name="correo"><br>
-		<label>Telefono:</label> <input type="tel" name="telefono"><br>
-		<label>Calle/Ave:</label><input type="text" name="calle"><br>
+		<label>Contraseña:</label><input type="password" name="contraseña" minlength="8"><br>
+		<label>Telefono:</label> <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"><br>
+		<label>Calle/Ave:</label><input type="text" name="calle" placeholder="Avenida Duarte #28"><br>
 		<label id="provincia">Provincia:</label>
 			<select name="provincia" id="boxProvincia">
 				<option value=""></option>
@@ -63,7 +64,6 @@
 			</select><br>
 		<label>Municipio:</label>
 		<select name="municipio" id="municipio"></select><br>
-		<label>Contraseña:</label><input type="password" name="contraseña"><br>
 		<input type="submit" value="Registrar">			
 	</form>
 	<script src="registracionEmpleador.js"></script>
