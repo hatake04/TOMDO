@@ -223,5 +223,108 @@ INSERT INTO municipios(municipio, provinciaID)
 VALUES("Cabrera", 15);
 INSERT INTO municipios(municipio, provinciaID)
 VALUES("El Factor", 15);
-INSERT INTO municipios(unicipio, provinciaID)
+INSERT INTO municipios(municipio, provinciaID)
 VALUES("Rio San Juan", 15);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Bonao", 16);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Maimon", 16);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Piedra Blanca", 16);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Montecristi", 17);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Castañuelas", 17);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Guayubin", 17);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Las Matas de Santa Cruz", 17);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Pepillo Salcedo", 17);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Villa Vasquez", 17);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Monte Plata", 18);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Bayaguana", 18);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Peralvillo", 18);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Sabana Grande de Boya", 18);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Yamasa", 18);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Pedernales", 19);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Oviedo", 19);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Bani", 20);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Matanzas", 20);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Nizao", 20);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Puerto Plata", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Altamira", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Guananico", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Imbert", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Los Hidalgos", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Luperon", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Sosua", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Villa Isabela", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Villa Montellano", 21);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Santa Barbara de Samana", 22);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Las Terrenas", 22);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Sanchez", 22);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Benemerita de San Cristobal", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Cambita Garabito", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Los Cacaos", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Sabana Grande de Palenque", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Gregorio de Nigua", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Bajos de Haina", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Yaguate", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Villa Altagracia", 23);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Jose de Ocoa", 24);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Rancho Arriba", 24);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Sabana Larga", 24);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Juan de la Maguana", 25);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Juan de Herrera", 25);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Bohechio", 25);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("El Cercado", 25);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Vallejuelo", 25);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Las Matas de Farfan", 25);
+
+
+
+SELECT * FROM municipios;
+SELECT * FROM provincias;
+ALTER TABLE provincias RENAME COLUMN ID TO provinciaID;
+ALTER TABLE municipios RENAME COLUMN ID TO municipioID;
