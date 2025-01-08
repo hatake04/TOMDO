@@ -167,6 +167,64 @@ INSERT INTO municipios(ID, municipio, provinciaID)
 VALUES("Hondo Valle", 7);
 INSERT INTO municipios(ID, municipio, provinciaID)
 VALUES("Pedro Santana", 7);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("San Victor", 8);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Cayetano Germosen", 8);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Gaspar Hernandez", 8);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Jamao al Norte", 8);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Moca", 8);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Hato Mayor del Rey", 9);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Sabana de la Mar", 9);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("El Valle", 9);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Salcedo", 10);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Tenares", 10);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Villa Tapia", 10);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Jimani", 11);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Cristobal", 11);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Duverge", 11);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("La Descubierta", 11);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Mella", 11);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Postrer Rio", 11);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Higuey", 12);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("La Romana", 13);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Guaymate", 13);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Villa Hermosa", 13);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("La Vega", 14);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Constanza", 14);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Jarabacoa", 14);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Jima Abajo", 14);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Nagua", 15);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Cabrera", 15);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("El Factor", 15);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Rio San Juan", 15);
 
 
 
