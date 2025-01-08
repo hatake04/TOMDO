@@ -72,3 +72,104 @@ INSERT INTO provincias(provincia)
 VALUES("Distrito Nacional");
 SHOW TABLES;
 SELECT id, provincia FROM provincias;
+CREATE TABLE municipios (
+	ID INT NOT NULL AUTO_INCREMENT,
+    municipio CHAR(50),
+    provinciaID INT,
+    PRIMARY KEY(ID),
+    FOREIGN KEY(provinciaID) REFERENCES provincias(ID)
+);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES(1, "Azua de Compostela", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Estebania", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Guayabal", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Las Charcas", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Las Yayas de Viajama", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Padre las Casas", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Peralta", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Pueblo Viejo", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Sabana Yegua", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Tabara Arriba", 1);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Neiba", 2);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Galvan", 2);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Villa Jaragua", 2);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Tamayo", 2);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Santa Cruz de Barahona", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Cabral", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("El Peñon", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Enriquillo", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Fundacion", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Jaquimeyes", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("La Cienaga", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Las Salinas", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Polo", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Paraiso", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Vicente Noble", 3);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Dajabon", 4);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("El Pino", 4);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Loma de Cabrera", 4);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Partido", 4);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("San Francisco de Macoris", 5);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Arenoso", 5);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Castillo", 5);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Eugenio Maria de Hostos", 5);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Las Guaranas", 5);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Pimentel", 5);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Villa Arriba", 5);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Santa Cruz del Seibo", 6);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Miches", 6);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Comendador", 7);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Banica", 7);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("El Llano", 7);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Juan Santiago", 7);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Hondo Valle", 7);
+INSERT INTO municipios(ID, municipio, provinciaID)
+VALUES("Pedro Santana", 7);
+
+
+
+
+
+
