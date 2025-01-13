@@ -321,7 +321,72 @@ INSERT INTO municipios(municipio, provinciaID)
 VALUES("Vallejuelo", 25);
 INSERT INTO municipios(municipio, provinciaID)
 VALUES("Las Matas de Farfan", 25);
-
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Pedro de Macoris", 26);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Jose de los Llanos", 26);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Ramon Santana", 26);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Consuelo", 26);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Quisqueya", 26);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Guayacanes", 26);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Cotui", 27);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Cevicos", 27);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Fantino", 27);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("La Mata", 27);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Baitoa", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Janico", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Licey al Medio", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Puñal", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Sabana Iglesia", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Jose de las Matas", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Santiago", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Tamboril", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Villa Bisono", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Villa Gonzalez", 28);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Ignacio de Sabaneta", 29);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Moncion", 29);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Villa los Almacigos", 29);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Boca Chica", 30);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Los Alcarrizos", 30);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Pedro Brand", 30);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("San Antonio de Guerra", 30);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Santo Domingo Este", 30);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Santo Domingo Norte", 30);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Santo Domingo Oeste", 30);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Mao", 31);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Esperanza", 31);
+INSERT INTO municipios(municipio, provinciaID)
+VALUES("Laguna Salada", 31);
 
 
 SELECT * FROM municipios;
