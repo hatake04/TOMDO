@@ -28,11 +28,14 @@
 					<input type="search" name="lugar" size="25" placeholder="Provincia o Municipio">
 				</div>
 				<div>
-					<input type="submit" name="buscar">
+					<input type="submit" name="buscar" value=buscar>
 				</div>
 			</form>
 		</div>
 	</div>
+	<footer>
+	<a href="">Contactanos</a><a href="">Nosotros</a>
+	</footer>
 	
 </body>
 </html>
