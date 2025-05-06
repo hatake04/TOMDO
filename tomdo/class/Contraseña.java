@@ -6,7 +6,7 @@ import org.mindrot.jbcrypt.BCrypt;
  * the user enters a password. It is also in charge to encrypt the data for storage in the
  * system's database using the BCrypt library.  
  */
-public class Contraseña {
+public final class Contraseña {
 
 	private String pwd;
 	private String hashPwd;
@@ -15,15 +15,18 @@ public class Contraseña {
 	 * Parameterized Constructor - Creates a password object
 	 * @param pwd
 	 */
-	public Contraseña(String pwd)
-	{
-		this.pwd = pwd;
-		hashPwd = BCrypt.hashpw(pwd, BCrypt.gensalt(15));
+	public Contraseña() {
+		
+		pwd = null;
+		hashPwd = null;
 	}
 	
+	public static String hashPassword(String pwd) {
+		return BCrypt.hashpw(pwd, BCrypt.gensalt(15));
+	}
 	
-	public boolean checkLogin(String data){
-		return BCrypt.checkpw(data, hashPwd);
+	public static boolean checkLogin(String pw, String hashPwd){
+		return BCrypt.checkpw(pw, hashPwd);
 	}
 	
 	public String getPwd()	{
